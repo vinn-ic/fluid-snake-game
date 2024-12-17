@@ -56,7 +56,7 @@ while rodando:
     
     if distance_y <= 20 and distance_x <= 20:
         pontos += 1
-        speed += 0.1
+        speed += 0.5
         comprimento += 4
         cord_x_fruta = random.randint(50,750)
         cord_y_fruta = random.randint(50,550)
